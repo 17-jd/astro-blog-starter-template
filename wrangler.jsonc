@@ -6,7 +6,9 @@
     "directory": "./dist",
     "not_found_handling": "single-page-application"
   },
-  "compatibility_flags": ["nodejs_compat"],
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
   "observability": {
     "enabled": false,
     "head_sampling_rate": 1,
@@ -21,5 +23,9 @@
       "persist": true,
       "head_sampling_rate": 1
     }
-  }
+  },
+  "custom_domains": [
+    "jaydipdungarani.com",
+    "www.jaydipdungarani.com"
+  ]
 }
